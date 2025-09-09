@@ -1,0 +1,14 @@
+{
+  "name": "projeto-remover-duplicatas",
+  "version": "1.0.0",
+  "main": "dist/testes.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/testes.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.3.1",
+    "typescript": "^5.9.2"
+  }
+}
