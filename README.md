@@ -14,9 +14,9 @@ Este projeto resolve o desafio de remover elementos duplicados de um array utili
 
 ## 🧠 Lógica implementada
 
-- A classe utiliza `Set` do JavaScript para remover duplicatas de forma simples e eficiente.
-- O sistema identifica se os elementos são números ou strings e lida com ambos corretamente.
+## Como remover duplicatas usando apenas Arrays (sem Set)
 
+Neste projeto, implementamos uma classe `ArraySimples` que remove duplicatas usando somente arrays e métodos como `includes()` e `push()`. 
 ---
 
 ## 🧪 Como testar manualmente
