@@ -6,7 +6,14 @@ export class ArraySimples<T> {
   }
 
   public removeDuplicados(): T[] {
-    const elementosUnicos = new Set<T>(this.array);
-    return Array.from(elementosUnicos);
+    const elementosUnicos: T[] = [];
+
+    for (const item of this.array) {
+      if (!elementosUnicos.includes(item)) {
+        elementosUnicos.push(item);
+      }
+    }
+
+    return elementosUnicos;
   }
 }
